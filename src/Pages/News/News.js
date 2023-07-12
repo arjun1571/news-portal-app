@@ -1,9 +1,9 @@
 import React from 'react';
 
-const News = () => {
+const News = ({data}) => {
     return (
         <div>
-            this is news
+            {data.title}
         </div>
     );
 };
